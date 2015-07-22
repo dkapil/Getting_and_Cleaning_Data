@@ -104,23 +104,40 @@ For each record in the dataset it is provided:
 # Variables 
 
 Packages: 
+
 	data.table
+	
 	reshape2
+	
 
 Tables: 
+
 	features: data from UCI HAR Dataset/features.txt
+
 	extract_features: mean and standard deviation for each measurement of features
+
 	X_test: data from UCI HAR Dataset/test/X_test.txt
+
 	y_test: data from UCI HAR Dataset/test/y_test.txt
+
 	subject_test: data from UCI HAR Dataset/test/subject_test.txt
+
 	test_data: merge tables subject_test, y_test, X_test
+
 	activity_labels: data from UCI HAR Dataset/activity_labels.txt
+
 	X_train: data from UCI HAR Dataset/train/X_train.txt
+
 	y_train: data from UCI HAR Dataset/train/y_train.txt
+
 	subject_train: data from UCI HAR Dataset/train/subject_train.txt
+
 	train_data: merge tables subject_train, y_train, X_train
+
 	data: merge tables test_data, train_data
+
 	
+
 	
 	
 	
