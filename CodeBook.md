@@ -62,8 +62,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Check the README.txt file for further details about this dataset. 
 
-A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: [Web Link]
-
 
 Attribute Information:
 
@@ -78,16 +76,27 @@ For each record in the dataset it is provided:
 # Processing data
 
 1 Merges the training and the test sets to create one data set.
+
 2 Extracts only the measurements on the mean and standard deviation for each measurement. 
-3 Uses descriptive activity names to name the activities in the data set
+
+3 Uses descriptive activity names to name the activities in the data set.
+
 4 Appropriately labels the data set with descriptive variable names. 
+
 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 # run_analysis.R steps
 
-1 Require reshapre2 and data.table librareis.
+1 Require reshapre2 and data.table libraries.
+
 2 Load both test and train data and features and activity labels.
+
 3 Extract the mean and standard deviation, column names and data.
-4 Process the data
+
+4 Process the data.
+
 5 Merge data set.
-6 Generate a tidy_data.txt file
+
+6 Generate a tidy_data.txt file.
+
