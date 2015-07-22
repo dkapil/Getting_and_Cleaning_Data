@@ -1,5 +1,4 @@
-# Getting_and_Cleaning_Data
-Getting and Cleaning Data
+# Getting and Cleaning Data
 
 ## Peer Assessments /Getting and Cleaning Data Course Project
 
